@@ -53,7 +53,7 @@ Then, the output should be:
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-Solution:
+[Solution]
 
 
 ### Question 3
@@ -70,7 +70,7 @@ Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 Consider use dict()
 
-Solution:
+[Solution]
 
 
 ### Question 4
@@ -88,7 +88,7 @@ Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 tuple() method can convert list to tuple
 
-Solution:
+[Solution]
 
 
 ### Question 5
@@ -103,18 +103,4 @@ Also please include simple test function to test the class methods.
 Hints:
 Use __init__ method to construct some parameters
 
-Solution:
-```python
-class InputOutString(object):
-    def __init__(self):
-        self.s = ""
-
-    def getString(self):
-        self.s = input()
-    
-    def printString(self):
-        print(self.s.upper())
-
-strObj = InputOutString()
-strObj.getString()
-strObj.printString()
+[Solution]
