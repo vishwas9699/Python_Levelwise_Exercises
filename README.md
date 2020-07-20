@@ -70,7 +70,7 @@ Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 Consider use dict()
 
-[Solution]()
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/3.py)
 
 
 ### Question 4
