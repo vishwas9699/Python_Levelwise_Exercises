@@ -89,13 +89,7 @@ In case of input data being supplied to the question, it should be assumed to be
 tuple() method can convert list to tuple
 
 Solution:
-```python
-values=input()
-l=values.split(",")
-t=tuple(l)
-print(l)
-print(t)
-```
+
 
 ### Question 5
 Level 1
