@@ -36,3 +36,5 @@ The numbers obtained should be printed in a comma-separated sequence on a single
 
 Hints: 
 Consider use range(#begin, #end) method
+
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/1.py)
