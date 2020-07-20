@@ -103,4 +103,4 @@ Also please include simple test function to test the class methods.
 Hints:
 Use __init__ method to construct some parameters
 
-[Solution]
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/5.py)
