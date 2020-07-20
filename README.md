@@ -53,7 +53,7 @@ Then, the output should be:
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-[Solution]
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/2.py)
 
 
 ### Question 3
@@ -70,7 +70,7 @@ Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 Consider use dict()
 
-[Solution]
+[Solution]()
 
 
 ### Question 4
