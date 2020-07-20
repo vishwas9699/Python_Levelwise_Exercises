@@ -88,7 +88,7 @@ Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 tuple() method can convert list to tuple
 
-[Solution]
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/4.py)
 
 
 ### Question 5
