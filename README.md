@@ -18,7 +18,9 @@ He should use Python to solve more complex problem using more rich libraries fun
 ## 2. Problem template
 
 Question
+
 Hints
+
 Solution
 
 ----
