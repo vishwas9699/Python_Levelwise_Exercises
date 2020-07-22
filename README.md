@@ -125,7 +125,7 @@ Hints:
 If the output received is in decimal form, it should be rounded off to its nearest value (for example, if the output received is 26.0, it should be printed as 26)
 In case of input data being supplied to the question, it should be assumed to be a console input. 
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/5.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/6.py)
 
 ------
 
@@ -144,7 +144,7 @@ Then, the output of the program should be:
 Hints:
 Note: In case of input data being supplied to the question, it should be assumed to be a console input in a comma-separated form.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/5.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/7.py)
 
 ------
 
