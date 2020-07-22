@@ -35,6 +35,8 @@ Consider use range(#begin, #end) method
 
 [Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/1.py)
 
+----
+
 ### Question 2
 Level 1
 
@@ -230,7 +232,7 @@ for p in items:
 
 print(','.join(value))
 ```
-
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/9.py)
 ### Question 12
 Level 2
 
@@ -250,7 +252,7 @@ for i in range(1000, 3001):
         values.append(s)
 print(",".join(values))
 ```
-
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/9.py)
 ### Question 13
 Level 2
 
@@ -279,7 +281,7 @@ for c in s:
 print("LETTERS", d["LETTERS"])
 print("DIGITS", d["DIGITS"])
 ```
-
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/9.py)
 ### Question 14
 Level 2
 
@@ -308,7 +310,7 @@ for c in s:
 print("UPPER CASE", d["UPPER CASE"])
 print("LOWER CASE", d["LOWER CASE"])
 ```
-
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/9.py)
 ### Question 15
 Level 2
 
@@ -332,7 +334,7 @@ n3 = int( "%s%s%s" % (a,a,a) )
 n4 = int( "%s%s%s%s" % (a,a,a,a) )
 print(n1+n2+n3+n4)
 ```
-
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/9.py)
 ### Question 16
 Level 2
 
@@ -353,7 +355,7 @@ values = input()
 numbers = [x for x in values.split(",") if int(x)%2!=0]
 print(",".join(numbers))
 ```
-
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/9.py)
 ### Question 17
 Level 2
 
@@ -393,6 +395,9 @@ while True:
         pass
 print(netAmount)
 ```
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/17.py)
+
+-------
 
 ### Question 18
 Level 3
@@ -416,32 +421,9 @@ ABd1234@1
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-Solutions:
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/18.py)
 
-```python
-import re
-value = []
-items=[x for x in input().split(',')]
-for p in items:
-    if len(p)<6 or len(p)>12:
-        continue
-    else:
-        pass
-    if not re.search("[a-z]",p):
-        continue
-    elif not re.search("[0-9]",p):
-        continue
-    elif not re.search("[A-Z]",p):
-        continue
-    elif not re.search("[$#@]",p):
-        continue
-    elif re.search("\s",p):
-        continue
-    else:
-        pass
-    value.append(p)
-print(",".join(value))
-```
+----
 
 ### Question 19
 Level 3
@@ -465,19 +447,10 @@ Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 We use itemgetter to enable multiple sort keys.
 
-Solutions:
-from operator import itemgetter, attrgetter
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/19.py)
 
-```python
-l = []
-while True:
-    s = input()
-    if not s:
-        break
-    l.append(tuple(s.split(",")))
+----
 
-print(sorted(l, key=itemgetter(0,1,2)))
-```
 ### Question 20
 Level 3
 
@@ -487,17 +460,6 @@ Define a class with a generator which can iterate the numbers, which are divisib
 Hints:
 Consider use yield
 
-Solution:
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/20.py)
 
-```python
-def putNumbers(n):
-    i = 0
-    while i<n:
-        j=i
-        i=i+1
-        if j%7==0:
-            yield j
-
-for i in reverse(100):
-    print(i)
-```
+----
