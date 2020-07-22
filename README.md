@@ -200,12 +200,9 @@ Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 We use set container to remove duplicated data automatically and then use sorted() to sort the data.
 
-Solution:
-```python
-s = input()
-words = [word for word in s.split(" ")]
-print(" ".join(sorted(list(set(words)))))
-```
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/10.py)
+
+-----
 
 ### Question 11
 Level 2
@@ -221,18 +218,10 @@ Notes: Assume the data is input by console.
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-Solution:
-```python
-value = []
-items=[x for x in input().split(',')]
-for p in items:
-    intp = int(p, 2)
-    if not intp%5:
-        value.append(p)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/11.py)
 
-print(','.join(value))
-```
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/9.py)
+-------
+
 ### Question 12
 Level 2
 
@@ -243,16 +232,10 @@ The numbers obtained should be printed in a comma-separated sequence on a single
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-Solution:
-```python
-values = []
-for i in range(1000, 3001):
-    s = str(i)
-    if (int(s[0])%2==0) and (int(s[1])%2==0) and (int(s[2])%2==0) and (int(s[3])%2==0):
-        values.append(s)
-print(",".join(values))
-```
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/9.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/12.py)
+
+------
+
 ### Question 13
 Level 2
 
@@ -267,21 +250,10 @@ DIGITS 3
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-Solution:
-```python
-s = input()
-d={"DIGITS":0, "LETTERS":0}
-for c in s:
-    if c.isdigit():
-        d["DIGITS"]+=1
-    elif c.isalpha():
-        d["LETTERS"]+=1
-    else:
-        pass
-print("LETTERS", d["LETTERS"])
-print("DIGITS", d["DIGITS"])
-```
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/9.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/13.py)
+
+--------
+
 ### Question 14
 Level 2
 
@@ -296,21 +268,10 @@ LOWER CASE 9
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-Solution:
-```python
-s = input()
-d={"UPPER CASE":0, "LOWER CASE":0}
-for c in s:
-    if c.isupper():
-        d["UPPER CASE"]+=1
-    elif c.islower():
-        d["LOWER CASE"]+=1
-    else:
-        pass
-print("UPPER CASE", d["UPPER CASE"])
-print("LOWER CASE", d["LOWER CASE"])
-```
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/9.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/14.py)
+
+------
+
 ### Question 15
 Level 2
 
@@ -324,17 +285,10 @@ Then, the output should be:
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-Solution:
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/15.py)
 
-```python
-a = input()
-n1 = int( "%s" % a )
-n2 = int( "%s%s" % (a,a) )
-n3 = int( "%s%s%s" % (a,a,a) )
-n4 = int( "%s%s%s%s" % (a,a,a,a) )
-print(n1+n2+n3+n4)
-```
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/9.py)
+------
+
 ### Question 16
 Level 2
 
@@ -348,14 +302,10 @@ Then, the output should be:
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-Solution:
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/16.py)
 
-```python
-values = input()
-numbers = [x for x in values.split(",") if int(x)%2!=0]
-print(",".join(numbers))
-```
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/9.py)
+---------
+
 ### Question 17
 Level 2
 
@@ -376,25 +326,6 @@ Then, the output should be:
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-Solution:
-
-```python
-netAmount = 0
-while True:
-    s = input()
-    if not s:
-        break
-    values = s.split(" ")
-    operation = values[0]
-    amount = int(values[1])
-    if operation=="D":
-        netAmount+=amount
-    elif operation=="W":
-        netAmount-=amount
-    else:
-        pass
-print(netAmount)
-```
 [Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/17.py)
 
 -------
