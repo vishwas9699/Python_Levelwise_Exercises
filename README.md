@@ -161,12 +161,8 @@ bag,hello,without,world
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-Solution:
-```python
-items=[x for x in input().split(',')]
-items.sort()
-print(','.join(items))
-```
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/8.py)
+
 ----
 
 ### Question 9
@@ -184,19 +180,9 @@ PRACTICE MAKES PERFECT
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-Solution:
-```python
-lines = []
-while True:
-    s = input()
-    if s:
-        lines.append(s.upper())
-    else:
-        break;
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/9.py)
 
-for sentence in lines:
-    print(sentence)
-```
+----
 
 ### Question 10
 Level 2
