@@ -473,21 +473,8 @@ Hints:
 The built-in document method is __doc__
 
 Solution:
-```python
-print(abs.__doc__)
-print(int.__doc__)
-print(input.__doc__)
 
-def square(num):
-    '''Return the square value of the input number.
-    
-    The input number must be integer.
-    '''
-    return num ** 2
 
-print(square(2))
-print(square.__doc__)
-```
 ### Question 25
 Level 1
 
