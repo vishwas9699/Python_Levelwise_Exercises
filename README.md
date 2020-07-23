@@ -526,6 +526,4 @@ Hints:
 Use + to concatenate the strings
 
 Solution
-```python
 
-```
