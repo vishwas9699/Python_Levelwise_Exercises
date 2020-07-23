@@ -507,10 +507,7 @@ Use str() to convert a number to string.
 
 Solution
 ```python
-def printValue(n):
-    print(str(n))
 
-printValue(3)
 ```
 
 ### Question 28
