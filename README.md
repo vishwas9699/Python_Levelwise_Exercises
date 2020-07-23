@@ -496,12 +496,7 @@ Define a function with two numbers as arguments. You can compute the sum in the 
 
 Solution
 
-```python
-def SumFunction(number1, number2):
-	return number1+number2
 
-print(SumFunction(1,2))
-```
 
 ### Question 27
 Define a function that can convert a integer into a string and print it in console.
