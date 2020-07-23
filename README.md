@@ -33,7 +33,7 @@ The numbers obtained should be printed in a comma-separated sequence on a single
 Hints: 
 Consider use range(#begin, #end) method
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/1.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/01.py)
 
 ----
 
@@ -51,7 +51,7 @@ Then, the output should be:
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/2.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/02.py)
 
 ----
 
@@ -69,7 +69,7 @@ Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 Consider use dict()
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/3.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/03.py)
 
 ----
 
@@ -88,7 +88,7 @@ Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 tuple() method can convert list to tuple
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/4.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/04.py)
 
 ----
 
@@ -104,7 +104,7 @@ Also please include simple test function to test the class methods.
 Hints:
 Use __init__ method to construct some parameters
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/5.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/05.py)
 
 ----
 
@@ -127,7 +127,7 @@ Hints:
 If the output received is in decimal form, it should be rounded off to its nearest value (for example, if the output received is 26.0, it should be printed as 26)
 In case of input data being supplied to the question, it should be assumed to be a console input. 
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/6.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/06.py)
 
 ------
 
@@ -146,7 +146,7 @@ Then, the output of the program should be:
 Hints:
 Note: In case of input data being supplied to the question, it should be assumed to be a console input in a comma-separated form.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/7.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/07.py)
 
 ------
 
@@ -163,7 +163,7 @@ bag,hello,without,world
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/8.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/08.py)
 
 ----
 
@@ -182,7 +182,7 @@ PRACTICE MAKES PERFECT
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/9.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/09.py)
 
 ----
 
