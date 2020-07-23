@@ -458,13 +458,6 @@ Using the ** operator
 
 Solution:
 
-```python
-def square(num):
-    return num ** 2
-
-print(square(2))
-print(square(3))
-```
 
 ### Question 24
 Level 1
