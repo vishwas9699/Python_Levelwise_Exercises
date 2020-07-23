@@ -418,8 +418,9 @@ Then, the output of the program should be:
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-Solution:
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/21.py)
 
+------
 
 ### Question 22
 Level 3
@@ -444,8 +445,9 @@ to:1
 Hints
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-Solution:
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/22.py)
 
+-------
 
 ### Question 23
 level 1
@@ -456,8 +458,9 @@ Write a method which can calculate square value of number
 Hints:
 Using the ** operator
 
-Solution:
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/23.py)
 
+------
 
 ### Question 24
 Level 1
@@ -472,8 +475,9 @@ And add document for your own function
 Hints:
 The built-in document method is __doc__
 
-Solution:
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/24.py)
 
+--------
 
 ### Question 25
 Level 1
@@ -485,8 +489,9 @@ Hints:
 Define a instance parameter, need add it in __init__ method
 You can init a object with construct parameter or set the value later
 
-Solution:
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/25.py)
 
+------
 
 ### Question 26:
 Define a function which can compute the sum of two numbers.
@@ -494,45 +499,47 @@ Define a function which can compute the sum of two numbers.
 Hints:
 Define a function with two numbers as arguments. You can compute the sum in the function and return the value.
 
-Solution
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/26.py)
 
-
+-------
 
 ### Question 27
 Define a function that can convert a integer into a string and print it in console.
 
 Hints:
-
 Use str() to convert a number to string.
 
-Solution
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/27.py)
 
+------
 
 ### Question 28
 Define a function that can receive two integral numbers in string form and compute their sum and then print it in console.
 
 Hints:
-
 Use int() to convert a string to integer.
 
-Solution
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/28.py)
 
+-----
 
 ### Question 29
 Define a function that can accept two strings as input and concatenate them and then print it in console.
 
 Hints:
-
 Use + to concatenate the strings
 
-Solution
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/29.py)
+
+-------
 
 ### Question 30
 Define a function that can accept two strings as input and print the string with maximum length in console. If two strings have the same length, then the function should print al l strings line by line.
 
 Hints:
-
 Use len() function to get the length of a string
 
-Solution
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/30.py)
+
+------
 
