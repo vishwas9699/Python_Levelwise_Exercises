@@ -4,4 +4,4 @@ def checkValue(n):
     else:
         print("It is an odd number")
         
-checkValue(7)
+checkValue(5)
