@@ -549,7 +549,7 @@ Define a function that can accept an integer number as input and print the "It i
 Hints:
 Use % operator to check if a number is even or odd.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/30.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/31.py)
 
 ------
 
@@ -560,7 +560,7 @@ Hints:
 * Use dict[key]=value pattern to put entry into a dictionary.
 * Use ** operator to get power of a number.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/30.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/32.py)
 
 -------
 
@@ -572,7 +572,7 @@ Hints:
 * Use ** operator to get power of a number.
 * Use range() for loops.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/30.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/33.py)
 
 --------
 
@@ -585,7 +585,7 @@ Hints:
 * Use range() for loops.
 * Use keys() to iterate keys in the dictionary. Also we can use item() to get key/value pairs.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/30.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/34.py)
 
 --------
 
@@ -598,7 +598,7 @@ Hints:
 * Use range() for loops.
 * Use keys() to iterate keys in the dictionary. Also we can use item() to get key/value pairs.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/30.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/35.py)
 
 ---------
 
@@ -610,7 +610,7 @@ Hints:
 * Use range() for loops.
 * Use list.append() to add values into a list.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/30.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/36.py)
 
 -------
 
@@ -623,7 +623,7 @@ Hints:
 * Use list.append() to add values into a list.
 * Use [n1:n2] to slice a list
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/30.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/37.py)
 
 ------
 
@@ -636,7 +636,7 @@ Hints:
 * Use list.append() to add values into a list.
 * Use [n1:n2] to slice a list
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/30.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/38.py)
 
 -------
 
@@ -649,7 +649,7 @@ Hints:
 * Use list.append() to add values into a list.
 * Use [n1:n2] to slice a list
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/30.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/39.py)
 
 ------
 
@@ -662,7 +662,7 @@ Hints:
 * Use list.append() to add values into a list.
 * Use tuple() to get a tuple from a list.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/30.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/40.py)
 
 --------
 
@@ -672,6 +672,6 @@ With a given tuple (1,2,3,4,5,6,7,8,9,10), write a program to print the first ha
 Hints:
 Use [n1:n2] notation to get a slice from a tuple.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/30.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/41.py)
 
 -------
