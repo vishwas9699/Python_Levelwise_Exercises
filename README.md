@@ -603,11 +603,10 @@ Use list.append() to add values into a list.
 
 Solution
 
-### Question 38
+### Question 37
 Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the first 5 elements in the list.
 
 Hints:
-
 Use ** operator to get power of a number.
 Use range() for loops.
 Use list.append() to add values into a list.
@@ -616,79 +615,40 @@ Use [n1:n2] to slice a list
 Solution
 
 
-### Question 39
+### Question 38
 Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the last 5 elements in the list.
 
 Hints:
-
 Use ** operator to get power of a number.
 Use range() for loops.
 Use list.append() to add values into a list.
 Use [n1:n2] to slice a list
 
-Solution
-```python
-def printList():
-	li=list()
-	for i in range(1,21):
-		li.append(i**2)
-	print(li[-5:])
 
-printList()
-```
-### Question 40
+### Question 39
 Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print all values except the first 5 elements in the list.
 
 Hints:
-
 Use ** operator to get power of a number.
 Use range() for loops.
 Use list.append() to add values into a list.
 Use [n1:n2] to slice a list
 
 Solution
-```python
-def printList():
-	li=list()
-	for i in range(1,21):
-		li.append(i**2)
-	print li[5:]
 
-printList()
-```
 
-### Question 41
+### Question 40
 Define a function which can generate and print a tuple where the value are square of numbers between 1 and 20 (both included). 
 
 Hints:
-
 Use ** operator to get power of a number.
 Use range() for loops.
 Use list.append() to add values into a list.
 Use tuple() to get a tuple from a list.
 
-Solution
-```python
-def printTuple():
-	li=list()
-	for i in range(1,21):
-		li.append(i**2)
-	print(tuple(li))
-		
-printTuple()
-```
-### Question 42
+
+### Question 41
 With a given tuple (1,2,3,4,5,6,7,8,9,10), write a program to print the first half values in one line and the last half values in one line. 
 
 Hints:
-
 Use [n1:n2] notation to get a slice from a tuple.
-
-Solution
-```python
-tp=(1,2,3,4,5,6,7,8,9,10)
-tp1=tp[:5]
-tp2=tp[5:]
-print(tp1)
-print(tp2)
-```
