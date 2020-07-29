@@ -1,22 +1,8 @@
-import re
-value = []
-items=[x for x in input().split(',')]
-for p in items:
-    if len(p)<6 or len(p)>12:
-        continue
-    else:
-        pass
-    if not re.search("[a-z]",p):
-        continue
-    elif not re.search("[0-9]",p):
-        continue
-    elif not re.search("[A-Z]",p):
-        continue
-    elif not re.search("[$#@]",p):
-        continue
-    elif re.search("\s",p):
-        continue
-    else:
-        pass
-    value.append(p)
-print(",".join(value))
+tp=(1,2,3,4,5,6,7,8,9,10)
+li=list()
+for i in tp:
+	if tp[i]%2==0:
+		li.append(tp[i])
+
+tp2=tuple(li)
+print(tp2)
