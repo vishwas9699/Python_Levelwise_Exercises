@@ -718,9 +718,7 @@ Use lambda to define anonymous functions.
 
 Solution
 ```python
-li = [1,2,3,4,5,6,7,8,9,10]
-squaredNumbers = map(lambda x: x**2, li)
-print(squaredNumbers)
+
 ```
 
 ### Question 46
@@ -733,9 +731,7 @@ Use lambda to define anonymous functions.
 
 Solution
 ```python
-li = [1,2,3,4,5,6,7,8,9,10]
-evenNumbers = map(lambda x: x**2, filter(lambda x: x%2==0, li))
-print(evenNumbers)
+
 ```
 ### Question 47
 Write a program which can filter() to make a list whose elements are even number between 1 and 20 (both included).
