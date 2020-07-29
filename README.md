@@ -683,31 +683,30 @@ Hints:
 Use "for" to iterate the tuple
 Use tuple() to generate a tuple from a list.
 
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/42.py)
 
+------
 
 ### Question 43
 Write a program which accepts a string as input to print "Yes" if the string is "yes" or "YES" or "Yes", otherwise print "No". 
 
 Hints:
-
 Use if statement to judge condition.
 
-Solution
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/43.py)
 
-```
+------
+
 ### Question 44
 Write a program which can filter even numbers in a list by using filter function. The list is: [1,2,3,4,5,6,7,8,9,10].
 
 Hints:
-
 Use filter() to filter some elements in a list.
 Use lambda to define anonymous functions.
 
-Solution
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/44.py)
 
-```
+------
 
 ### Question 45
 Write a program which can map() to make a list whose elements are square of elements in [1,2,3,4,5,6,7,8,9,10].
@@ -716,10 +715,9 @@ Hints
 Use map() to generate a list.
 Use lambda to define anonymous functions.
 
-Solution
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/45.py)
 
-```
+------
 
 ### Question 46
 Write a program which can map() and filter() to make a list whose elements are square of even number in [1,2,3,4,5,6,7,8,9,10].
@@ -729,10 +727,10 @@ Use map() to generate a list.
 Use filter() to filter elements of a list.
 Use lambda to define anonymous functions.
 
-Solution
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/46.py)
 
-```
+------
+
 ### Question 47
 Write a program which can filter() to make a list whose elements are even number between 1 and 20 (both included).
 
@@ -741,10 +739,9 @@ Hints:
 Use filter() to filter elements of a list.
 Use lambda to define anonymous functions.
 
-Solution
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/47.py)
 
-```
+------
 
 ### Question 48
 Write a program which can map() to make a list whose elements are square of numbers between 1 and 20 (both included).
@@ -753,10 +750,9 @@ Hints
 Use map() to generate a list.
 Use lambda to define anonymous functions.
 
-Solution
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/48.py)
 
-```
+------
 
 ### Question 49
 Define a class named American which has a static method called printNationality.
@@ -764,10 +760,9 @@ Define a class named American which has a static method called printNationality.
 Hints:
 Use @staticmethod decorator to define class static method.
 
-Solution
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/49.py)
 
-```
+------
 
 ### Question 50
 Define a class named American and its subclass NewYorker. 
@@ -776,83 +771,69 @@ Hints:
 
 Use class Subclass(ParentClass) to define a subclass.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/50.py)
 
-```
+------
 
 ### Question 51
 Define a class named Circle which can be constructed by a radius. The Circle class has a method which can compute the area. 
 
 Hints:
-
 Use def methodName(self) to define a method.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/51.py)
 
-```
+------
 
 ### Question 52
 Define a class named Rectangle which can be constructed by a length and width. The Rectangle class has a method which can compute the area. 
 
 Hints:
-
 Use def methodName(self) to define a method.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/52.py)
 
-```
+------
 
 ### Question 53
 Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default.
 
 Hints:
-
 To override a method in super class, we can define a method with the same name in the super class.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/53.py)
 
-```
+------
 
 ### Question 54
 Please raise a RuntimeError exception.
 
 Hints:
-
 Use raise() to raise an exception.
 
-Solution:
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/54.py)
 
-```python
-
-```
+------
 
 ### Question 55
 Write a function to compute 5/0 and use try/except to catch the exceptions.
 
 Hints:
-
 Use try/except to catch exceptions.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/55.py)
 
-```
+------
 
 ### Question 56
 Define a custom exception class which takes a string message as attribute.
 
 Hints:
-
 To define a custom exception, we need to define a class inherited from Exception.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/56.py)
 
-```
+------
 
 ### Question 57
 Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the user name of a given email address. Both user names and company names are composed of letters only.
@@ -869,13 +850,11 @@ john
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
 Hints:
-
 Use \w to match letters.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/57.py)
 
-```
+------
 
 ### Question 58
 Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the company name of a given email address. Both user names and company names are composed of letters only.
@@ -892,13 +871,11 @@ google
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
 Hints:
-
 Use \w to match letters.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/58.py)
 
-```
+------
 
 ### Question 59
 Write a program which accepts a sequence of words separated by whitespace as input to print the words composed of digits only.
@@ -915,21 +892,19 @@ Then, the output of the program should be:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
 Hints:
-
 Use re.findall() to find all substring using regex.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/59.py)
 
-```
+------
+
 ### Question 60
 Print a unicode string "hello world".
 
 Hints:
-
 Use u'strings' format to define unicode string.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-```
+------
+
