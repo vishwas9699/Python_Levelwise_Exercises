@@ -827,7 +827,7 @@ Use raise() to raise an exception.
 Solution:
 
 ```python
-raise RuntimeError('something wrong')
+
 ```
 
 ### Question 55
