@@ -766,14 +766,7 @@ Use @staticmethod decorator to define class static method.
 
 Solution
 ```python
-class American(object):
-    @staticmethod
-    def printNationality():
-        print("America")
 
-anAmerican = American()
-anAmerican.printNationality()
-American.printNationality()
 ```
 
 ### Question 50
