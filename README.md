@@ -920,9 +920,7 @@ Use re.findall() to find all substring using regex.
 
 Solution:
 ```python
-import re
-s = raw_input()
-print(re.findall("\d+",s))
+
 ```
 ### Question 60
 Print a unicode string "hello world".
@@ -933,6 +931,5 @@ Use u'strings' format to define unicode string.
 
 Solution:
 ```python
-unicodeString = u"hello world!"
-print(unicodeString)
+
 ```
