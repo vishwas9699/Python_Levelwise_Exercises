@@ -694,11 +694,7 @@ Use if statement to judge condition.
 
 Solution
 ```python
-s= raw_input()
-if s=="yes" or s=="YES" or s=="Yes":
-    print "Yes"
-else:
-    print "No"
+
 ```
 ### Question 44
 Write a program which can filter even numbers in a list by using filter function. The list is: [1,2,3,4,5,6,7,8,9,10].
