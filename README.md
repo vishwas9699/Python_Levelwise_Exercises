@@ -680,21 +680,11 @@ Use [n1:n2] notation to get a slice from a tuple.
 Write a program to generate and print another tuple whose values are even numbers in the given tuple (1,2,3,4,5,6,7,8,9,10). 
 
 Hints:
-
 Use "for" to iterate the tuple
 Use tuple() to generate a tuple from a list.
 
-Solution
-```python
-tp=(1,2,3,4,5,6,7,8,9,10)
-li=list()
-for i in tp:
-	if tp[i]%2==0:
-		li.append(tp[i])
 
-tp2=tuple(li)
-print(tp2)
-```
+
 ### Question 43
 Write a program which accepts a string as input to print "Yes" if the string is "yes" or "YES" or "Yes", otherwise print "No". 
 
