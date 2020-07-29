@@ -675,3 +675,363 @@ Use [n1:n2] notation to get a slice from a tuple.
 [Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/41.py)
 
 -------
+
+### Question 42
+Write a program to generate and print another tuple whose values are even numbers in the given tuple (1,2,3,4,5,6,7,8,9,10). 
+
+Hints:
+
+Use "for" to iterate the tuple
+Use tuple() to generate a tuple from a list.
+
+Solution
+```python
+tp=(1,2,3,4,5,6,7,8,9,10)
+li=list()
+for i in tp:
+	if tp[i]%2==0:
+		li.append(tp[i])
+
+tp2=tuple(li)
+print(tp2)
+```
+### Question 43
+Write a program which accepts a string as input to print "Yes" if the string is "yes" or "YES" or "Yes", otherwise print "No". 
+
+Hints:
+
+Use if statement to judge condition.
+
+Solution
+```python
+s= raw_input()
+if s=="yes" or s=="YES" or s=="Yes":
+    print "Yes"
+else:
+    print "No"
+```
+### Question 44
+Write a program which can filter even numbers in a list by using filter function. The list is: [1,2,3,4,5,6,7,8,9,10].
+
+Hints:
+
+Use filter() to filter some elements in a list.
+Use lambda to define anonymous functions.
+
+Solution
+```python
+li = [1,2,3,4,5,6,7,8,9,10]
+evenNumbers = filter(lambda x: x%2==0, li)
+print(evenNumbers)
+```
+
+### Question 45
+Write a program which can map() to make a list whose elements are square of elements in [1,2,3,4,5,6,7,8,9,10].
+
+Hints
+Use map() to generate a list.
+Use lambda to define anonymous functions.
+
+Solution
+```python
+li = [1,2,3,4,5,6,7,8,9,10]
+squaredNumbers = map(lambda x: x**2, li)
+print(squaredNumbers)
+```
+
+### Question 46
+Write a program which can map() and filter() to make a list whose elements are square of even number in [1,2,3,4,5,6,7,8,9,10].
+
+Hints
+Use map() to generate a list.
+Use filter() to filter elements of a list.
+Use lambda to define anonymous functions.
+
+Solution
+```python
+li = [1,2,3,4,5,6,7,8,9,10]
+evenNumbers = map(lambda x: x**2, filter(lambda x: x%2==0, li))
+print(evenNumbers)
+```
+### Question 47
+Write a program which can filter() to make a list whose elements are even number between 1 and 20 (both included).
+
+Hints:
+
+Use filter() to filter elements of a list.
+Use lambda to define anonymous functions.
+
+Solution
+```python
+evenNumbers = filter(lambda x: x%2==0, range(1,21))
+print(evenNumbers)
+```
+
+### Question 48
+Write a program which can map() to make a list whose elements are square of numbers between 1 and 20 (both included).
+
+Hints
+Use map() to generate a list.
+Use lambda to define anonymous functions.
+
+Solution
+```python
+squaredNumbers = map(lambda x: x**2, range(1,21))
+print(squaredNumbers)
+```
+
+### Question 49
+Define a class named American which has a static method called printNationality.
+
+Hints:
+Use @staticmethod decorator to define class static method.
+
+Solution
+```python
+class American(object):
+    @staticmethod
+    def printNationality():
+        print("America")
+
+anAmerican = American()
+anAmerican.printNationality()
+American.printNationality()
+```
+
+### Question 50
+Define a class named American and its subclass NewYorker. 
+
+Hints:
+
+Use class Subclass(ParentClass) to define a subclass.
+
+Solution:
+```python
+class American(object):
+    pass
+
+class NewYorker(American):
+    pass
+
+anAmerican = American()
+aNewYorker = NewYorker()
+print(anAmerican)
+print(aNewYorker)
+```
+
+### Question 51
+Define a class named Circle which can be constructed by a radius. The Circle class has a method which can compute the area. 
+
+Hints:
+
+Use def methodName(self) to define a method.
+
+Solution:
+```python
+class Circle(object):
+    def __init__(self, r):
+        self.radius = r
+
+    def area(self):
+        return self.radius**2*3.14
+
+aCircle = Circle(2)
+print aCircle.area()
+```
+
+### Question 52
+Define a class named Rectangle which can be constructed by a length and width. The Rectangle class has a method which can compute the area. 
+
+Hints:
+
+Use def methodName(self) to define a method.
+
+Solution:
+```python
+class Rectangle(object):
+    def __init__(self, l, w):
+        self.length = l
+        self.width  = w
+
+    def area(self):
+        return self.length*self.width
+
+aRectangle = Rectangle(2,10)
+print(aRectangle.area())
+```
+
+### Question 53
+Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default.
+
+Hints:
+
+To override a method in super class, we can define a method with the same name in the super class.
+
+Solution:
+```python
+class Shape(object):
+    def __init__(self):
+        pass
+
+    def area(self):
+        return 0
+
+class Square(Shape):
+    def __init__(self, l):
+        Shape.__init__(self)
+        self.length = l
+
+    def area(self):
+        return self.length*self.length
+
+aSquare= Square(3)
+print(aSquare.area())
+```
+
+### Question 54
+Please raise a RuntimeError exception.
+
+Hints:
+
+Use raise() to raise an exception.
+
+Solution:
+
+```python
+raise RuntimeError('something wrong')
+```
+
+### Question 55
+Write a function to compute 5/0 and use try/except to catch the exceptions.
+
+Hints:
+
+Use try/except to catch exceptions.
+
+Solution:
+```python
+def throws():
+    return 5/0
+
+try:
+    throws()
+except ZeroDivisionError:
+    print("division by zero!")
+except Exception, err:
+    print('Caught an exception')
+finally:
+    print('In finally block for cleanup')
+```
+
+### Question 56
+Define a custom exception class which takes a string message as attribute.
+
+Hints:
+
+To define a custom exception, we need to define a class inherited from Exception.
+
+Solution:
+```python
+class MyError(Exception):
+    """My own exception class
+
+    Attributes:
+        msg  -- explanation of the error
+    """
+    
+    def __init__(self, msg):
+        self.msg = msg
+
+error = MyError("something wrong")
+```
+
+### Question 57
+Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the user name of a given email address. Both user names and company names are composed of letters only.
+
+Example:
+If the following email address is given as input to the program:
+
+john@google.com
+
+Then, the output of the program should be:
+
+john
+
+In case of input data being supplied to the question, it should be assumed to be a console input.
+
+Hints:
+
+Use \w to match letters.
+
+Solution:
+```python
+import re
+emailAddress = raw_input()
+pat2 = "(\w+)@((\w+\.)+(com))"
+r2 = re.match(pat2,emailAddress)
+print(r2.group(1))
+```
+
+### Question 58
+Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the company name of a given email address. Both user names and company names are composed of letters only.
+
+Example:
+If the following email address is given as input to the program:
+
+john@google.com
+
+Then, the output of the program should be:
+
+google
+
+In case of input data being supplied to the question, it should be assumed to be a console input.
+
+Hints:
+
+Use \w to match letters.
+
+Solution:
+```python
+import re
+emailAddress = raw_input()
+pat2 = "(\w+)@(\w+)\.(com)"
+r2 = re.match(pat2,emailAddress)
+print(r2.group(2))
+```
+
+### Question 59
+Write a program which accepts a sequence of words separated by whitespace as input to print the words composed of digits only.
+
+Example:
+If the following words is given as input to the program:
+
+2 cats and 3 dogs.
+
+Then, the output of the program should be:
+
+['2', '3']
+
+In case of input data being supplied to the question, it should be assumed to be a console input.
+
+Hints:
+
+Use re.findall() to find all substring using regex.
+
+Solution:
+```python
+import re
+s = raw_input()
+print(re.findall("\d+",s))
+```
+### Question 60
+Print a unicode string "hello world".
+
+Hints:
+
+Use u'strings' format to define unicode string.
+
+Solution:
+```python
+unicodeString = u"hello world!"
+print(unicodeString)
+```
