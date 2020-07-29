@@ -743,8 +743,7 @@ Use lambda to define anonymous functions.
 
 Solution
 ```python
-evenNumbers = filter(lambda x: x%2==0, range(1,21))
-print(evenNumbers)
+
 ```
 
 ### Question 48
@@ -756,8 +755,7 @@ Use lambda to define anonymous functions.
 
 Solution
 ```python
-squaredNumbers = map(lambda x: x**2, range(1,21))
-print(squaredNumbers)
+
 ```
 
 ### Question 49
