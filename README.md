@@ -874,11 +874,7 @@ Use \w to match letters.
 
 Solution:
 ```python
-import re
-emailAddress = raw_input()
-pat2 = "(\w+)@((\w+\.)+(com))"
-r2 = re.match(pat2,emailAddress)
-print(r2.group(1))
+
 ```
 
 ### Question 58
@@ -901,11 +897,7 @@ Use \w to match letters.
 
 Solution:
 ```python
-import re
-emailAddress = raw_input()
-pat2 = "(\w+)@(\w+)\.(com)"
-r2 = re.match(pat2,emailAddress)
-print(r2.group(2))
+
 ```
 
 ### Question 59
