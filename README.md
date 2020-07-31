@@ -1194,8 +1194,7 @@ Use random.sample() to generate a list of random values.
 
 Solution:
 ```python
-import random
-print(random.sample([i for i in range(100,201) if i%2==0], 5))
+
 ```
 
 ### Question 78
@@ -1206,8 +1205,7 @@ Use random.sample() to generate a list of random values.
 
 Solution:
 ```python
-import random
-print(random.sample([i for i in range(1,1001) if i%5==0 and i%7==0], 5))
+
 ```
 
 ### Question 79
