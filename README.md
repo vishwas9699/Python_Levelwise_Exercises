@@ -1122,10 +1122,9 @@ Please generate a random float where the value is between 10 and 100 using Pytho
 Hints:
 Use random.random() to generate a random float in [0,1].
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-```
+------
 
 ### Question 73
 Please generate a random float where the value is between 5 and 95 using Python math module.
@@ -1133,10 +1132,9 @@ Please generate a random float where the value is between 5 and 95 using Python 
 Hints:
 Use random.random() to generate a random float in [0,1].
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-```
+------
 
 ### Question 74
 Please write a program to output a random even number between 0 and 10 inclusive using random module and list comprehension.
@@ -1144,10 +1142,9 @@ Please write a program to output a random even number between 0 and 10 inclusive
 Hints:
 Use random.choice() to a random element from a list.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-```
+------
 
 ### Question 75
 Please write a program to output a random number, which is divisible by 5 and 7, between 0 and 10 inclusive using random module and list comprehension.
@@ -1155,10 +1152,9 @@ Please write a program to output a random number, which is divisible by 5 and 7,
 Hints:
 Use random.choice() to a random element from a list.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-```
+------
 
 ### Question 76
 Please write a program to generate a list with 5 random numbers between 100 and 200 inclusive.
@@ -1166,10 +1162,9 @@ Please write a program to generate a list with 5 random numbers between 100 and 
 Hints:
 Use random.sample() to generate a list of random values.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-```
+------
 
 ### Question 77
 Please write a program to randomly generate a list with 5 even numbers between 100 and 200 inclusive.
@@ -1177,10 +1172,9 @@ Please write a program to randomly generate a list with 5 even numbers between 1
 Hints:
 Use random.sample() to generate a list of random values.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-```
+------
 
 ### Question 78
 Please write a program to randomly generate a list with 5 numbers, which are divisible by 5 and 7 , between 1 and 1000 inclusive.
@@ -1188,10 +1182,9 @@ Please write a program to randomly generate a list with 5 numbers, which are div
 Hints:
 Use random.sample() to generate a list of random values.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-```
+------
 
 ### Question 79
 Please write a program to randomly print a integer number between 7 and 15 inclusive.
@@ -1199,10 +1192,9 @@ Please write a program to randomly print a integer number between 7 and 15 inclu
 Hints:
 Use random.randrange() to a random integer in a given range.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-```
+------
 
 ### Question 80
 Please write a program to compress and decompress the string "hello world!hello world!hello world!hello world!".
@@ -1210,7 +1202,8 @@ Please write a program to compress and decompress the string "hello world!hello 
 Hints:
 Use zlib.compress() and zlib.decompress() to compress and decompress a string.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-```
+------
+
+
