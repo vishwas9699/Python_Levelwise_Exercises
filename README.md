@@ -914,7 +914,7 @@ Write a program to read an ASCII string and to convert it to a unicode string en
 Hints:
 Use unicode() function to convert.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/61.py)
 
 ------
 
@@ -924,7 +924,7 @@ Write a special comment to indicate a Python source code file is in unicode.
 
 Hints:
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/62.py)
 
 ------
 
@@ -946,7 +946,7 @@ In case of input data being supplied to the question, it should be assumed to be
 Hints:
 Use float() to convert an integer to a float
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/63.py)
 
 ------
 
@@ -973,7 +973,7 @@ In case of input data being supplied to the question, it should be assumed to be
 Hints:
 We can define recursive function in Python.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/64.py)
 
 ------
 
@@ -1000,7 +1000,7 @@ In case of input data being supplied to the question, it should be assumed to be
 Hints:
 We can define recursive function in Python.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/65.py)
 
 ------
 
@@ -1030,7 +1030,7 @@ Use string.join() to join a list of strings.
 
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/66.py)
 
 ------
 
@@ -1052,7 +1052,7 @@ Use yield to produce the next value in generator.
 
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/67.py)
 
 ------
 
@@ -1073,7 +1073,7 @@ Use yield to produce the next value in generator.
 
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/68.py)
 
 ------
 
@@ -1083,7 +1083,7 @@ Please write assert statements to verify that every number in the list [2,4,6,8]
 Hints:
 Use "assert expression" to make assertion.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/69.py)
 
 ------
 
@@ -1102,7 +1102,7 @@ Then, the output of the program should be:
 Hints:
 Use eval() to evaluate an expression.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/70.py)
 
 ------
 
@@ -1112,7 +1112,7 @@ Please write a binary search function which searches an item in a sorted list. T
 Hints:
 Use if/elif to deal with conditions.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/71.py)
 
 ------
 
@@ -1122,7 +1122,7 @@ Please generate a random float where the value is between 10 and 100 using Pytho
 Hints:
 Use random.random() to generate a random float in [0,1].
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/72.py)
 
 ------
 
@@ -1132,7 +1132,7 @@ Please generate a random float where the value is between 5 and 95 using Python 
 Hints:
 Use random.random() to generate a random float in [0,1].
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/73.py)
 
 ------
 
@@ -1142,7 +1142,7 @@ Please write a program to output a random even number between 0 and 10 inclusive
 Hints:
 Use random.choice() to a random element from a list.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/74.py)
 
 ------
 
@@ -1152,7 +1152,7 @@ Please write a program to output a random number, which is divisible by 5 and 7,
 Hints:
 Use random.choice() to a random element from a list.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/75.py)
 
 ------
 
@@ -1162,7 +1162,7 @@ Please write a program to generate a list with 5 random numbers between 100 and 
 Hints:
 Use random.sample() to generate a list of random values.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/76.py)
 
 ------
 
@@ -1172,7 +1172,7 @@ Please write a program to randomly generate a list with 5 even numbers between 1
 Hints:
 Use random.sample() to generate a list of random values.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/77.py)
 
 ------
 
@@ -1182,7 +1182,7 @@ Please write a program to randomly generate a list with 5 numbers, which are div
 Hints:
 Use random.sample() to generate a list of random values.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/78.py)
 
 ------
 
@@ -1192,7 +1192,7 @@ Please write a program to randomly print a integer number between 7 and 15 inclu
 Hints:
 Use random.randrange() to a random integer in a given range.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/79.py)
 
 ------
 
@@ -1202,7 +1202,7 @@ Please write a program to compress and decompress the string "hello world!hello 
 Hints:
 Use zlib.compress() and zlib.decompress() to compress and decompress a string.
 
-[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/80.py)
 
 ------
 
