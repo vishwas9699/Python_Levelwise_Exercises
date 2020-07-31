@@ -1116,8 +1116,7 @@ Use eval() to evaluate an expression.
 
 Solution:
 ```python
-expression = raw_input()
-print(eval(expression))
+
 ```
 
 ### Question 72
