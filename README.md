@@ -1271,12 +1271,10 @@ Use enumerate() to get (index, value) tuple.
 
 Solution:
 ```python
-li = [12,24,35,70,88,120,155]
-li = [x for (i,x) in enumerate(li) if i%2!=0]
-print(li)
+
 ```
 
-### Question 88
+### Question 87
 By using list comprehension, please write a program generate a 3*5*8 3D array whose each element is 0.
 
 Hints:
@@ -1284,22 +1282,18 @@ Use list comprehension to make an array.
 
 Solution:
 ```
-array = [[ [0 for col in range(8)] for col in range(5)] for row in range(3)]
-print(array)
 ```
 
-### Question 89
+### Question 88
 By using list comprehension, please write a program to print the list after removing the 0th,4th,5th numbers in [12,24,35,70,88,120,155].
 
 Hints:
-Use list comprehension to delete a bunch of element from a list.
-Use enumerate() to get (index, value) tuple.
+* Use list comprehension to delete a bunch of element from a list.
+* Use enumerate() to get (index, value) tuple.
 
 Solution:
 ```python
-li = [12,24,35,70,88,120,155]
-li = [x for (i,x) in enumerate(li) if i not in (0,4,5)]
-print(li)
+
 ```
 
 ### Question 90
