@@ -1449,8 +1449,7 @@ Use itertools.permutations() to get permutations of list.
 
 Solution:
 ```python
-import itertools
-print(list(itertools.permutations([1,2,3])))
+
 ```
 
 ### Question 97
