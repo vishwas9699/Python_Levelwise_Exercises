@@ -1183,8 +1183,7 @@ Use random.sample() to generate a list of random values.
 
 Solution:
 ```python
-import random
-print(random.sample(range(100), 5))
+
 ```
 
 ### Question 77
