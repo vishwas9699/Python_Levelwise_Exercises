@@ -924,10 +924,9 @@ Write a special comment to indicate a Python source code file is in unicode.
 
 Hints:
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-```
+------
 
 ### Question 63
 
