@@ -1030,10 +1030,9 @@ Use string.join() to join a list of strings.
 
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-```
+------
 
 ### Question 67
 
@@ -1053,10 +1052,9 @@ Use yield to produce the next value in generator.
 
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-```
+------
 
 ### Question 68
 Please write a program using generator to print the numbers which can be divisible by 5 and 7 between 0 and n in comma separated form while n is input by console.
@@ -1075,10 +1073,9 @@ Use yield to produce the next value in generator.
 
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-```
+------
 
 ### Question 69
 Please write assert statements to verify that every number in the list [2,4,6,8] is even.
@@ -1086,10 +1083,9 @@ Please write assert statements to verify that every number in the list [2,4,6,8]
 Hints:
 Use "assert expression" to make assertion.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-```
+------
 
 ### Question 70
 Please write a program which accepts basic mathematic expression from console and print the evaluation result.
@@ -1106,11 +1102,9 @@ Then, the output of the program should be:
 Hints:
 Use eval() to evaluate an expression.
 
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-Solution:
-```python
-
-```
+------
 
 ### Question 71
 Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.
@@ -1118,11 +1112,9 @@ Please write a binary search function which searches an item in a sorted list. T
 Hints:
 Use if/elif to deal with conditions.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-```
-
+------
 
 ### Question 72
 Please generate a random float where the value is between 10 and 100 using Python math module.
