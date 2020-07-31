@@ -973,10 +973,9 @@ In case of input data being supplied to the question, it should be assumed to be
 Hints:
 We can define recursive function in Python.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-```
+------
 
 ### Question 65
 The Fibonacci Sequence is computed based on the following formula:
@@ -1001,11 +1000,9 @@ In case of input data being supplied to the question, it should be assumed to be
 Hints:
 We can define recursive function in Python.
 
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-Solution:
-```python
-
-```
+------
 
 ### Question 66
 The Fibonacci Sequence is computed based on the following formula:
