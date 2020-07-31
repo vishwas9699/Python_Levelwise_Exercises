@@ -1436,9 +1436,7 @@ Use list[::2] to iterate a list by step 2.
 
 Solution:
 ```python
-s=raw_input()
-s = s[::2]
-print(s)
+
 ```
 
 ### Question 96
