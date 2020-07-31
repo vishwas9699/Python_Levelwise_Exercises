@@ -912,13 +912,11 @@ Use u'strings' format to define unicode string.
 Write a program to read an ASCII string and to convert it to a unicode string encoded by utf-8.
 
 Hints:
-
 Use unicode() function to convert.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/60.py)
 
-```
+------
 
 ### Question 62
 
@@ -1227,9 +1225,5 @@ Use zlib.compress() and zlib.decompress() to compress and decompress a string.
 
 Solution:
 ```python
-import zlib
-s = b'hello world!hello world!hello world!hello world!'
-t = zlib.compress(s)
-print(t)
-print(zlib.decompress(t))
+
 ```
