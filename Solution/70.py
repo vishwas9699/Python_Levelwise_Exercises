@@ -1,2 +1,2 @@
-expression = raw_input()
+expression =input()
 print(eval(expression))
