@@ -1,4 +1,4 @@
-# 100 challenging programming exercises for Python 3
+# 90+ challenging programming exercises for Python 3
 
 ----
 
