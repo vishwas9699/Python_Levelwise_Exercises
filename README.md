@@ -1212,10 +1212,9 @@ Please write a program to print the running time of execution of "1+1" for 100 t
 Hints:
 Use timeit() function to measure the running time.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/81.py)
 
-```
+------
 
 ### Question 82
 Please write a program to shuffle and print the list [3,6,7,8].
@@ -1223,11 +1222,9 @@ Please write a program to shuffle and print the list [3,6,7,8].
 Hints:
 Use shuffle() function to shuffle a list.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/82.py)
 
-```
-
+------
 
 ### Question 83
 Please write a program to generate all sentences where subject is in ["I", "You"] and verb is in ["Play", "Love"] and the object is in ["Hockey","Football"].
@@ -1235,10 +1232,9 @@ Please write a program to generate all sentences where subject is in ["I", "You"
 Hints:
 Use list[index] notation to get a element from a list.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/83.py)
 
-```
+------
 
 ### Question 84
 Please write a program to print the list after removing delete even numbers in [5,6,77,45,22,12,24].
@@ -1246,10 +1242,9 @@ Please write a program to print the list after removing delete even numbers in [
 Hints:
 Use list comprehension to delete a bunch of element from a list.
 
-Solution:
-```
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/84.py)
 
-```
+------
 
 ### Question 85
 By using list comprehension, please write a program to print the list after removing delete numbers which are divisible by 5 and 7 in [12,24,35,70,88,120,155].
@@ -1257,10 +1252,9 @@ By using list comprehension, please write a program to print the list after remo
 Hints:
 Use list comprehension to delete a bunch of element from a list.
 
-Solution:
-```
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/85.py)
 
-```
+------
 
 ### Question 86
 By using list comprehension, please write a program to print the list after removing the 0th, 2nd, 4th,6th numbers in [12,24,35,70,88,120,155].
@@ -1269,10 +1263,9 @@ Hints:
 Use list comprehension to delete a bunch of element from a list.
 Use enumerate() to get (index, value) tuple.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/86.py)
 
-```
+------
 
 ### Question 87
 By using list comprehension, please write a program generate a 3*5*8 3D array whose each element is 0.
@@ -1280,9 +1273,9 @@ By using list comprehension, please write a program generate a 3*5*8 3D array wh
 Hints:
 Use list comprehension to make an array.
 
-Solution:
-```
-```
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/87.py)
+
+------
 
 ### Question 88
 By using list comprehension, please write a program to print the list after removing the 0th,4th,5th numbers in [12,24,35,70,88,120,155].
@@ -1291,10 +1284,9 @@ Hints:
 * Use list comprehension to delete a bunch of element from a list.
 * Use enumerate() to get (index, value) tuple.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/88.py)
 
-```
+------
 
 ### Question 89
 By using list comprehension, please write a program to print the list after removing the value 24 in [12,24,35,24,88,120,155].
@@ -1302,10 +1294,9 @@ By using list comprehension, please write a program to print the list after remo
 Hints:
 Use list's remove method to delete a value.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/89.py)
 
-```
+------
 
 ### Question 90
 With two given lists [1,3,6,78,35,55] and [12,24,35,24,88,120,155], write a program to make a list whose elements are intersection of the above given lists.
@@ -1313,10 +1304,9 @@ With two given lists [1,3,6,78,35,55] and [12,24,35,24,88,120,155], write a prog
 Hints:
 Use set() and "&=" to do set intersection operation.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/90.py)
 
-```
+------
 
 ### Question 91
 With a given list [12,24,35,24,88,120,155,88,120,155], write a program to print this list after removing all duplicate values with original order reserved.
@@ -1324,9 +1314,9 @@ With a given list [12,24,35,24,88,120,155,88,120,155], write a program to print 
 Hints:
 Use set() to store a number of values without duplicate.
 
-Solution:
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/91.py)
 
-
+------
 
 ### Question 92
 Define a class Person and its two child classes: Male and Female. All classes have a method "getGender" which can print "Male" for Male class and "Female" for Female class.
@@ -1334,10 +1324,9 @@ Define a class Person and its two child classes: Male and Female. All classes ha
 Hints:
 Use Subclass(Parentclass) to define a child class.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/92.py)
 
-```
+------
 
 ### Question 93
 Please write a program which count and print the numbers of each character in a string input by console.
@@ -1361,14 +1350,9 @@ Hints:
 Use dict to store key/value pairs.
 Use dict.get() method to lookup a key with default value.
 
-Solution:
-```python
-dic = {}
-s=raw_input()
-for s in s:
-    dic[s] = dic.get(s,0)+1
-print('\n'.join(['%s,%s' % (k, v) for k, v in dic.items()]))
-```
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/93.py)
+
+------
 
 ### Question 94
 Please write a program which accepts a string from console and print it in reverse order.
@@ -1385,10 +1369,9 @@ ris etov ot esir
 Hints:
 Use list[::-1] to iterate a list in a reverse order.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/94.py)
 
-```
+------
 
 ### Question 95
 Please write a program which accepts a string from console and print the characters that have even indexes.
@@ -1405,10 +1388,9 @@ Helloworld
 Hints:
 Use list[::2] to iterate a list by step 2.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/95.py)
 
-```
+------
 
 ### Question 96
 Please write a program which prints all permutations of [1,2,3]
@@ -1416,10 +1398,9 @@ Please write a program which prints all permutations of [1,2,3]
 Hints:
 Use itertools.permutations() to get permutations of list.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/97.py)
 
-```
+------
 
 ### Question 97
 Write a program to solve a classic ancient Chinese puzzle: 
@@ -1428,8 +1409,6 @@ We count 35 heads and 94 legs among the chickens and rabbits in a farm. How many
 Hint:
 Use for loop to iterate all possible solutions.
 
-Solution:
-```python
+[Solution](https://github.com/vishwas9699/100_Python_exercises/blob/master/Solution/98.py)
 
-```
-
+------
