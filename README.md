@@ -908,7 +908,7 @@ Use u'strings' format to define unicode string.
 
 ------
 
-### Question 62
+### Question 61
 Write a program to read an ASCII string and to convert it to a unicode string encoded by utf-8.
 
 Hints:
@@ -920,7 +920,7 @@ Solution:
 
 ```
 
-### Question 63
+### Question 62
 
 Write a special comment to indicate a Python source code file is in unicode.
 
@@ -931,7 +931,7 @@ Solution:
 
 ```
 
-### Question 64
+### Question 63
 
 Write a program to compute 1/2+2/3+3/4+...+n/n+1 with a given n input by console (n>0).
 
@@ -954,7 +954,7 @@ Solution:
 
 ```
 
-### Question 65
+### Question 64
 
 Write a program to compute:
 
@@ -982,7 +982,7 @@ Solution:
 
 ```
 
-### Question 66
+### Question 65
 The Fibonacci Sequence is computed based on the following formula:
 
 f(n)=0 if n=0
@@ -1011,7 +1011,7 @@ Solution:
 
 ```
 
-### Question 67
+### Question 66
 The Fibonacci Sequence is computed based on the following formula:
 
 f(n)=0 if n=0
@@ -1042,7 +1042,7 @@ Solution:
 
 ```
 
-### Question 68
+### Question 67
 
 Please write a program using generator to print the even numbers between 0 and n in comma separated form while n is input by console.
 
@@ -1065,7 +1065,7 @@ Solution:
 
 ```
 
-### Question 69
+### Question 68
 Please write a program using generator to print the numbers which can be divisible by 5 and 7 between 0 and n in comma separated form while n is input by console.
 
 Example:
@@ -1087,7 +1087,7 @@ Solution:
 
 ```
 
-### Question 70
+### Question 69
 Please write assert statements to verify that every number in the list [2,4,6,8] is even.
 
 Hints:
@@ -1098,7 +1098,7 @@ Solution:
 
 ```
 
-### Question 71
+### Question 70
 Please write a program which accepts basic mathematic expression from console and print the evaluation result.
 
 Example:
@@ -1119,47 +1119,19 @@ Solution:
 
 ```
 
+### Question 71
+Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.
+
+Hints:
+Use if/elif to deal with conditions.
+
+Solution:
+```python
+
+```
+
+
 ### Question 72
-Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.
-
-Hints:
-Use if/elif to deal with conditions.
-
-Solution:
-```python
-
-```
-
-### Question 73
-Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.
-
-Hints:
-Use if/elif to deal with conditions.
-
-Solution:
-```python
-import math
-def bin_search(li, element):
-    bottom = 0
-    top = len(li)-1
-    index = -1
-    while top>=bottom and index==-1:
-        mid = int(math.floor((top+bottom)/2.0))
-        if li[mid]==element:
-            index = mid
-        elif li[mid]>element:
-            top = mid-1
-        else:
-            bottom = mid+1
-
-    return index
-
-li=[2,5,7,9,11,17,222]
-print(bin_search(li,11))
-print(bin_search(li,12))
-```
-
-### Question 74
 Please generate a random float where the value is between 10 and 100 using Python math module.
 
 Hints:
@@ -1167,11 +1139,10 @@ Use random.random() to generate a random float in [0,1].
 
 Solution:
 ```python
-import random
-print(random.random()*100)
+
 ```
 
-### Question 75
+### Question 73
 Please generate a random float where the value is between 5 and 95 using Python math module.
 
 Hints:
@@ -1183,7 +1154,7 @@ import random
 print(random.random()*100-5)
 ```
 
-### Question 76
+### Question 74
 Please write a program to output a random even number between 0 and 10 inclusive using random module and list comprehension.
 
 Hints:
@@ -1195,7 +1166,7 @@ import random
 print(random.choice([i for i in range(11) if i%2==0]))
 ```
 
-### Question 77
+### Question 75
 Please write a program to output a random number, which is divisible by 5 and 7, between 0 and 10 inclusive using random module and list comprehension.
 
 Hints:
@@ -1207,7 +1178,7 @@ import random
 print(random.choice([i for i in range(201) if i%5==0 and i%7==0]))
 ```
 
-### Question 78
+### Question 76
 Please write a program to generate a list with 5 random numbers between 100 and 200 inclusive.
 
 Hints:
@@ -1219,7 +1190,7 @@ import random
 print(random.sample(range(100), 5))
 ```
 
-### Question 79
+### Question 77
 Please write a program to randomly generate a list with 5 even numbers between 100 and 200 inclusive.
 
 Hints:
@@ -1231,7 +1202,7 @@ import random
 print(random.sample([i for i in range(100,201) if i%2==0], 5))
 ```
 
-### Question 80
+### Question 78
 Please write a program to randomly generate a list with 5 numbers, which are divisible by 5 and 7 , between 1 and 1000 inclusive.
 
 Hints:
@@ -1243,7 +1214,7 @@ import random
 print(random.sample([i for i in range(1,1001) if i%5==0 and i%7==0], 5))
 ```
 
-### Question 81
+### Question 79
 Please write a program to randomly print a integer number between 7 and 15 inclusive.
 
 Hints:
