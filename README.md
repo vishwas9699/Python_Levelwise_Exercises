@@ -1318,7 +1318,7 @@ Solution:
 
 ```
 
-### Question 92
+### Question 91
 With a given list [12,24,35,24,88,120,155,88,120,155], write a program to print this list after removing all duplicate values with original order reserved.
 
 Hints:
@@ -1340,7 +1340,7 @@ li=[12,24,35,24,88,120,155,88,120,155]
 print(removeDuplicate(li))
 ```
 
-### Question 93
+### Question 92
 Define a class Person and its two child classes: Male and Female. All classes have a method "getGender" which can print "Male" for Male class and "Female" for Female class.
 
 Hints:
@@ -1366,7 +1366,7 @@ print(aMale.getGender())
 print(aFemale.getGender())
 ```
 
-### Question 94
+### Question 93
 Please write a program which count and print the numbers of each character in a string input by console.
 
 Example:
@@ -1397,7 +1397,7 @@ for s in s:
 print('\n'.join(['%s,%s' % (k, v) for k, v in dic.items()]))
 ```
 
-### Question 95
+### Question 94
 Please write a program which accepts a string from console and print it in reverse order.
 
 Example:
@@ -1419,7 +1419,7 @@ s = s[::-1]
 print(s)
 ```
 
-### Question 96
+### Question 95
 Please write a program which accepts a string from console and print the characters that have even indexes.
 
 Example:
@@ -1441,7 +1441,7 @@ s = s[::2]
 print(s)
 ```
 
-### Question 97
+### Question 96
 Please write a program which prints all permutations of [1,2,3]
 
 Hints:
@@ -1453,7 +1453,7 @@ import itertools
 print(list(itertools.permutations([1,2,3])))
 ```
 
-### Question 98
+### Question 97
 Write a program to solve a classic ancient Chinese puzzle: 
 We count 35 heads and 94 legs among the chickens and rabbits in a farm. How many rabbits and how many chickens do we have?
 
