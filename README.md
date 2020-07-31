@@ -1150,8 +1150,7 @@ Use random.random() to generate a random float in [0,1].
 
 Solution:
 ```python
-import random
-print(random.random()*100-5)
+
 ```
 
 ### Question 74
