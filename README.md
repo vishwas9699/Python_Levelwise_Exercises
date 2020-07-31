@@ -1216,6 +1216,5 @@ Use random.randrange() to a random integer in a given range.
 
 Solution:
 ```python
-import random
-print(random.randrange(7,16))
+
 ```
