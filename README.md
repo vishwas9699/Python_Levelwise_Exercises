@@ -1296,7 +1296,7 @@ Solution:
 
 ```
 
-### Question 90
+### Question 89
 By using list comprehension, please write a program to print the list after removing the value 24 in [12,24,35,24,88,120,155].
 
 Hints:
@@ -1304,9 +1304,7 @@ Use list's remove method to delete a value.
 
 Solution:
 ```python
-li = [12,24,35,24,88,120,155]
-li = [x for x in li if x!=24]
-print(li)
+
 ```
 
 ### Question 91
