@@ -1325,20 +1325,8 @@ Hints:
 Use set() to store a number of values without duplicate.
 
 Solution:
-```python
-def removeDuplicate( li ):
-    newli=[]
-    seen = set()
-    for item in li:
-        if item not in seen:
-            seen.add( item )
-            newli.append(item)
 
-    return newli
 
-li=[12,24,35,24,88,120,155,88,120,155]
-print(removeDuplicate(li))
-```
 
 ### Question 92
 Define a class Person and its two child classes: Male and Female. All classes have a method "getGender" which can print "Male" for Male class and "Female" for Female class.
