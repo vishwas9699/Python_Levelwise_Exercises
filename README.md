@@ -951,11 +951,7 @@ Use float() to convert an integer to a float
 
 Solution:
 ```python
-n=int(input())
-sum=0.0
-for i in range(1,n+1):
-    sum += float(float(i)/(i+1))
-print(sum)
+
 ```
 
 ### Question 65
@@ -983,14 +979,7 @@ We can define recursive function in Python.
 
 Solution:
 ```python
-def f(n):
-    if n==0:
-        return 0
-    else:
-        return f(n-1)+100
 
-n=int(input())
-print(f(n))
 ```
 
 ### Question 66
