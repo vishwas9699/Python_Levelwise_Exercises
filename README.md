@@ -1084,17 +1084,7 @@ In case of input data being supplied to the question, it should be assumed to be
 
 Solution:
 ```python
-def NumGenerator(n):
-    for i in range(n+1):
-        if i%5==0 and i%7==0:
-            yield i
 
-n=int(input())
-values = []
-for i in NumGenerator(n):
-    values.append(str(i))
-
-print(",".join(values))
 ```
 
 ### Question 70
