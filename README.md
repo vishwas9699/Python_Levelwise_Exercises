@@ -1228,21 +1228,8 @@ Solution:
 
 ```
 
+
 ### Question 83
-Please write a program to shuffle and print the list [3,6,7,8].
-
-Hints:
-Use shuffle() function to shuffle a list.
-
-Solution:
-```python
-from random import shuffle
-li = [3,6,7,8]
-shuffle(li)
-print(li)
-```
-
-### Question 84
 Please write a program to generate all sentences where subject is in ["I", "You"] and verb is in ["Play", "Love"] and the object is in ["Hockey","Football"].
 
 Hints:
@@ -1250,17 +1237,10 @@ Use list[index] notation to get a element from a list.
 
 Solution:
 ```python
-subjects=["I", "You"]
-verbs=["Play", "Love"]
-objects=["Hockey","Football"]
-for i in range(len(subjects)):
-    for j in range(len(verbs)):
-        for k in range(len(objects)):
-            sentence = "%s %s %s." % (subjects[i], verbs[j], objects[k])
-            print(sentence)
+
 ```
 
-### Question 85
+### Question 84
 Please write a program to print the list after removing delete even numbers in [5,6,77,45,22,12,24].
 
 Hints:
@@ -1268,9 +1248,7 @@ Use list comprehension to delete a bunch of element from a list.
 
 Solution:
 ```
-li = [5,6,77,45,22,12,24]
-li = [x for x in li if x%2!=0]
-print(li)
+
 ```
 
 ### Question 86
