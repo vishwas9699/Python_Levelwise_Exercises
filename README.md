@@ -1,8 +1,8 @@
-# 90+ challenging programming exercises for Python 3
+# 90+ challenging programming exercises for Python 3.
 
 ----
 
-## 1. Level description
+## 1. Level description.
 
 
 |  Level    |   Description|
@@ -13,7 +13,7 @@
 
 ----
 
-## 2. Problem template
+## 2. Problem template.
 
 * Question
 * Hints
@@ -21,7 +21,7 @@
 
 ----
 
-## 3. Questions
+## 3. Questions.
 
 ### Question 1
 Level 1
