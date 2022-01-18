@@ -15,9 +15,9 @@
 
 ## 2. Problem template.
 
-* Question
-* Hints
-* Solution
+* Question.
+* Hints.
+* Solution.
 
 ----
 
